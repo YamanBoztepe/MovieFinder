@@ -9,6 +9,7 @@ import Foundation
 
 protocol HomeBusinessLogic {
     func search(movie: String)
+    func routeToDetail()
 }
 
 extension HomeView {
